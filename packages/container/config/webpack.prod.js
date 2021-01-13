@@ -17,10 +17,7 @@ const prodConfig = {
                 marketing: `marketing@${domain}/marketing/remoteEntry.js`,
             },
             shared: packageJson.dependencies
-        }),
-        new HtmlWebpackPlugin({
-            template: './public/index.html',
-        }),
+        })
     ],
 };
 
